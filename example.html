@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" type="text/css" href="example.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Interest<br> Calculator</h1>
+        <div class="input-container">
+            <label for="principal"  class="text inline" style="width: 70px">Principal<br>Amount:</label>
+            <input type="number" id="principal" placeholder="In Rupees">
+            
+        </div>
+        <div class="input-container">
+            <label for="tenure" class="text inline" style="width: 70px">Tenure :</label>
+            <input type="number" id="tenure" placeholder="In Years">
+        </div>
+        <div class="input-container">
+            <label for="interest" style="width: 70px;">% of intrest:</label>
+            <input type="number" id="interest" placeholder="Percentage of Intrest">
+        </div>
+        <button onclick="calculateSimpleInterest()"><b>Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="example.js"></script>
+</body>
+</html>
