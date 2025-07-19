@@ -18,7 +18,7 @@ A sleek and modern web-based calculator to compute **Simple Interest** — with 
 
 ## 📸 Live Demo
 
-👉 [Check it out here](https://simple-interest-calculator.web.app/)  
+👉 [Check it out here](https://simple-interest-calculator-tan.vercel.app/)  
 *(replace with your live link if deployed)*
 
 ---
